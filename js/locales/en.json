@@ -1,114 +1,20 @@
 {
-  "app": {
-    "title": "Knowledge Quiz App",
-    "description": "Build your knowledge with fun quizzes! Challenge yourself with 100 diverse questions."
-  },
-  "header": {
-    "title": "🎯 Knowledge Quiz",
-    "score": "Score",
-    "question": "Question"
-  },
-  "quiz": {
-    "loadError": "Failed to load. Please refresh."
-  },
-  "results": {
-    "title": "Quiz Complete!",
-    "congratulations": "Well done!",
-    "finalScore": "Final Score",
-    "categoryStats": "📊 Category Statistics",
-    "wrongAnswers": "📝 Wrong Answers Review",
-    "allCorrect": "🎉 Perfect! All answers correct!",
-    "restartButton": "🔄 Try Again",
-    "grades": {
-      "excellent": "🏆 Perfect! Genius!",
-      "good": "⭐ Excellent!",
-      "average": "👍 Good job!",
-      "poor": "💪 Try again!"
-    },
-    "messages": {
-      "excellent": [
-        "Perfect! You're a genius! 🧠",
-        "Amazing! Knowledge master! 👑",
-        "Incredible! Perfect score! 🌟"
-      ],
-      "good": [
-        "Great job! Excellent! 👏",
-        "Awesome! Almost perfect! 💪",
-        "Fantastic! Outstanding performance! ✨"
-      ],
-      "average": [
-        "Good! A little more effort needed! 📚",
-        "Not bad! You'll do better next time! 💫",
-        "Keep it up! Keep trying! 🎯"
-      ],
-      "poor": [
-        "Don't give up! Try again! 🔄",
-        "It's okay! Study and retry! 📖",
-        "Practice makes perfect! 💪"
-      ]
-    }
-  },
-  "explanation": {
-    "correct": "✅ Correct!",
-    "wrong": "❌ Wrong",
-    "answer": "Answer",
-    "noExplanation": "No explanation available for this question.",
-    "nextButton": "Next Question"
-  },
-  "wrongNote": {
-    "yourAnswer": "❌ Your answer",
-    "correctAnswer": "✅ Correct answer"
-  },
-  "ads": {
-    "banner": "Advertisement",
-    "interstitial": "Advertisement",
-    "close": "Close"
-  },
-  "language": {
-    "select": "Select Language"
-  },
-  "premium": {
-    "analysisButton": "🧠 View In-depth AI Analysis",
-    "other": "Other",
-    "totalGames": "Total Games",
-    "highScore": "High Score",
-    "correctRate": "Correct Rate This Time",
-    "categoryAnalysis": "📊 Detailed Category Analysis",
-    "studyRecommendation": "🎯 Study Recommendation",
-    "wrongPatternAnalysis": "🔍 Wrong Answer Pattern Analysis",
-    "mostWrongArea": "Most Frequently Wrong Category",
-    "questionUnit": "question",
-    "weakAreaTip": "needs further study.",
-    "strongAreaTip": "shows excellent proficiency!",
-    "levels": {
-      "master": "🏆 Master",
-      "masterDesc": "Top 5% knowledge level. You've demonstrated outstanding understanding across almost all areas.",
-      "expert": "🥇 Expert",
-      "expertDesc": "Top 20% knowledge level. With a bit more study in a few areas, you can reach Master level.",
-      "intermediate": "🥈 Intermediate",
-      "intermediateDesc": "Above-average knowledge level. Focused study in weak areas will lead to rapid growth.",
-      "beginner": "🥉 Beginner",
-      "beginnerDesc": "You have much to learn, but with repeated quizzes, your skills will improve quickly!"
-    }
-  },
-  "recommendations": {
-    "title": "Try These Too",
-    "devQuiz": "Developer Quiz",
-    "devQuizDesc": "Test your coding skills!",
-    "skyRunnerDesc": "Space flight arcade game!",
-    "emojiMerge": "Emoji Merge",
-    "emojiMergeDesc": "Merge and evolve emojis!",
-    "emotionTemp": "Emotion Temperature Test",
-    "emotionTempDesc": "What's your emotional temperature?"
-  },
-  "game": {
-    "back": "DopaBrain Home"
-  },
-  "related": {
-    "title": "More to Explore",
-    "devQuiz": "Dev Quiz",
-    "iqTest": "IQ Test",
-    "wouldYouRather": "Would You Rather",
-    "wordGuess": "Word Guess"
-  }
+  "meta":{"title":"World Knowledge Sprint | DopaBrain","description":"A fixed ten-question English and Korean general-knowledge practice round with answers and explanations. No timer or ranking."},
+  "a11y":{"skip":"Skip to content"},"loader":{"loading":"Loading…"},
+  "app":{"title":"World Knowledge Sprint","subtitle":"Take one calm lap through ten stable general-knowledge questions.","method":"Method: ten fixed questions, one point for each correct answer, and a score out of ten. Every answer includes a short explanation.","boundary":"This practice round has no timer and does not estimate intelligence, education level, rank, or percentile. Facts were reviewed on September 5, 2026.","start":"Start the sprint"},
+  "quiz":{"next":"Next question","correct":"Correct","incorrect":"Not this time"},
+  "result":{"kicker":"Practice round complete","summary":"You answered {score} of 10 questions correctly in this fixed set.","method":"The score is simply the number of correct answers in this fixed set.","boundary":"It is not a comparison with other people and does not measure intelligence.","nextTitle":"Choose one next activity","dev":"Try the developer quiz","word":"Play Word Guess","retry":"Practice again"},
+  "share":{"button":"Share neutral link","text":"Try this calm ten-question knowledge sprint.","success":"Link copied.","unavailable":"Sharing is unavailable."},
+  "questions":[
+    {"category":"Space","prompt":"Which is the largest planet in our solar system?","answers":["Mercury","Mars","Jupiter","Venus"],"correct":2,"explanation":"Jupiter is the solar system's largest planet by both diameter and mass."},
+    {"category":"Science","prompt":"What is the chemical formula for water?","answers":["CO₂","O₂","H₂O","NaCl"],"correct":2,"explanation":"A water molecule contains two hydrogen atoms and one oxygen atom: H₂O."},
+    {"category":"Geography","prompt":"What is the capital of Japan?","answers":["Kyoto","Osaka","Tokyo","Sapporo"],"correct":2,"explanation":"Tokyo is Japan's capital and the seat of its national government."},
+    {"category":"Everyday knowledge","prompt":"How many months are in one calendar year?","answers":["10","11","12","13"],"correct":2,"explanation":"The Gregorian calendar divides a year into 12 months."},
+    {"category":"Geography","prompt":"Which mountain has the highest summit above sea level?","answers":["K2","Mount Everest","Kangchenjunga","Denali"],"correct":1,"explanation":"Mount Everest has the world's highest summit above mean sea level."},
+    {"category":"Science","prompt":"Which gas makes up about 78% of Earth's atmosphere?","answers":["Oxygen","Carbon dioxide","Nitrogen","Argon"],"correct":2,"explanation":"Dry air near sea level is about 78% nitrogen and 21% oxygen by volume."},
+    {"category":"Technology","prompt":"What does WWW stand for?","answers":["World Wide Web","World Web Window","Wide World Wire","Web World Work"],"correct":0,"explanation":"WWW is the abbreviation for World Wide Web."},
+    {"category":"Technology","prompt":"How many bits are in one byte?","answers":["4","8","16","32"],"correct":1,"explanation":"In modern computing, one byte conventionally contains eight bits."},
+    {"category":"Art","prompt":"Who painted The Starry Night?","answers":["Claude Monet","Pablo Picasso","Vincent van Gogh","Salvador Dalí"],"correct":2,"explanation":"Vincent van Gogh painted The Starry Night in 1889."},
+    {"category":"Sport","prompt":"Which color is not one of the five Olympic rings?","answers":["Blue","Yellow","Green","Purple"],"correct":3,"explanation":"The ring colors are blue, yellow, black, green, and red on a white background."}
+  ]
 }

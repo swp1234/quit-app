@@ -1,114 +1,20 @@
 {
-  "app": {
-    "title": "지식 퀴즈 앱",
-    "description": "재미있는 지식 퀴즈로 상식을 쌓아보세요! 200개 이상의 다양한 문제에 도전하세요."
-  },
-  "header": {
-    "title": "🎯 지식 퀴즈",
-    "score": "점수",
-    "question": "문제"
-  },
-  "quiz": {
-    "loadError": "로딩 실패. 새로고침 해주세요."
-  },
-  "results": {
-    "title": "퀴즈 완료!",
-    "congratulations": "수고하셨습니다!",
-    "finalScore": "최종 점수",
-    "categoryStats": "📊 카테고리별 통계",
-    "wrongAnswers": "📝 오답 노트",
-    "allCorrect": "🎉 모든 문제를 맞혔습니다!",
-    "restartButton": "🔄 다시 도전하기",
-    "grades": {
-      "excellent": "🏆 만점! 천재!",
-      "good": "⭐ 훌륭해요!",
-      "average": "👍 좋아요!",
-      "poor": "💪 다시 도전!"
-    },
-    "messages": {
-      "excellent": [
-        "완벽해요! 천재시네요! 🧠",
-        "대단해요! 지식왕입니다! 👑",
-        "놀라워요! 만점이에요! 🌟"
-      ],
-      "good": [
-        "잘했어요! 훌륭합니다! 👏",
-        "대단해요! 거의 다 맞혔어요! 💪",
-        "멋져요! 실력이 뛰어나네요! ✨"
-      ],
-      "average": [
-        "좋아요! 조금만 더 노력하면 돼요! 📚",
-        "괜찮아요! 다음엔 더 잘할 거예요! 💫",
-        "나쁘지 않아요! 계속 도전하세요! 🎯"
-      ],
-      "poor": [
-        "아쉬워요! 다시 도전해보세요! 🔄",
-        "괜찮아요! 공부하고 다시 도전! 📖",
-        "포기하지 마세요! 연습이 답이에요! 💪"
-      ]
-    }
-  },
-  "explanation": {
-    "correct": "✅ 정답!",
-    "wrong": "❌ 오답",
-    "answer": "정답",
-    "noExplanation": "이 문제에 대한 해설이 없습니다.",
-    "nextButton": "다음 문제"
-  },
-  "wrongNote": {
-    "yourAnswer": "❌ 선택",
-    "correctAnswer": "✅ 정답"
-  },
-  "ads": {
-    "banner": "광고 영역",
-    "interstitial": "광고",
-    "close": "닫기"
-  },
-  "language": {
-    "select": "언어 선택"
-  },
-  "premium": {
-    "analysisButton": "🧠 AI 심층 분석 보기",
-    "other": "기타",
-    "totalGames": "총 게임 수",
-    "highScore": "최고 점수",
-    "correctRate": "이번 정답률",
-    "categoryAnalysis": "📊 분야별 상세 분석",
-    "studyRecommendation": "🎯 학습 추천",
-    "wrongPatternAnalysis": "🔍 오답 패턴 분석",
-    "mostWrongArea": "가장 많이 틀린 분야",
-    "questionUnit": "문제",
-    "weakAreaTip": "분야의 학습이 필요합니다.",
-    "strongAreaTip": "분야에서 뛰어난 실력을 보여주셨습니다!",
-    "levels": {
-      "master": "🏆 마스터",
-      "masterDesc": "상위 5% 수준의 놀라운 지식 수준입니다. 거의 모든 분야에서 탁월한 이해도를 보여주셨습니다.",
-      "expert": "🥇 전문가",
-      "expertDesc": "상위 20% 수준의 우수한 지식입니다. 몇 가지 분야만 보완하면 마스터 레벨에 도달할 수 있습니다.",
-      "intermediate": "🥈 중급자",
-      "intermediateDesc": "평균 이상의 상식 수준입니다. 약한 분야를 집중 학습하면 빠르게 성장할 수 있습니다.",
-      "beginner": "🥉 초급자",
-      "beginnerDesc": "아직 배울 것이 많지만, 퀴즈를 반복하면 빠르게 실력이 향상됩니다!"
-    }
-  },
-  "recommendations": {
-    "title": "이것도 해보세요",
-    "devQuiz": "개발자 퀴즈",
-    "devQuizDesc": "코딩 실력 테스트!",
-    "skyRunnerDesc": "우주 비행 아케이드 게임!",
-    "emojiMerge": "이모지 머지",
-    "emojiMergeDesc": "이모지 합쳐 진화시키기!",
-    "emotionTemp": "감정 온도계 테스트",
-    "emotionTempDesc": "나의 감정 온도는 몇 도?"
-  },
-  "game": {
-    "back": "DopaBrain 홈"
-  },
-  "related": {
-    "title": "더 많은 콘텐츠",
-    "devQuiz": "개발자 퀴즈",
-    "iqTest": "IQ 테스트",
-    "wouldYouRather": "밸런스 게임",
-    "wordGuess": "단어 맞추기"
-  }
+  "meta":{"title":"세계 상식 스프린트 | DopaBrain","description":"정답과 해설이 있는 고정 10문항 영·한 상식 연습입니다. 타이머와 순위는 없습니다."},
+  "a11y":{"skip":"본문으로 건너뛰기"},"loader":{"loading":"불러오는 중…"},
+  "app":{"title":"세계 상식 스프린트","subtitle":"안정적인 상식 문제 10개를 시간 제한 없이 차분히 풀어보세요.","method":"방법: 고정된 10문항에서 정답마다 1점을 더해 10점 만점으로 표시합니다. 모든 답에는 짧은 해설이 있습니다.","boundary":"타이머가 없는 연습용 문제입니다. 지능·교육 수준·순위·백분위를 추정하지 않습니다. 사실은 2026년 9월 5일에 검토했습니다.","start":"세계 상식 스프린트 시작하기"},
+  "quiz":{"next":"다음 문제","correct":"정답입니다","incorrect":"이번에는 오답입니다"},
+  "result":{"kicker":"연습 라운드 완료","summary":"이 고정 문제에서 10개 중 {score}개를 맞혔습니다.","method":"점수는 이 고정 문제에서 맞힌 답의 개수입니다.","boundary":"다른 사람과 비교한 값이 아니며 지능을 측정하지 않습니다.","nextTitle":"다음 활동 하나 고르기","dev":"개발자 퀴즈 풀기","word":"단어 맞히기 게임","retry":"다시 연습"},
+  "share":{"button":"중립 링크 공유","text":"시간 제한 없는 상식 10문제를 풀어보세요.","success":"링크를 복사했습니다.","unavailable":"공유할 수 없습니다."},
+  "questions":[
+    {"category":"우주","prompt":"태양계에서 가장 큰 행성은 무엇일까요?","answers":["수성","화성","목성","금성"],"correct":2,"explanation":"목성은 지름과 질량 모두 태양계에서 가장 큰 행성입니다."},
+    {"category":"과학","prompt":"물의 화학식은 무엇일까요?","answers":["CO₂","O₂","H₂O","NaCl"],"correct":2,"explanation":"물 분자는 수소 원자 두 개와 산소 원자 한 개로 이루어진 H₂O입니다."},
+    {"category":"지리","prompt":"일본의 수도는 어디일까요?","answers":["교토","오사카","도쿄","삿포로"],"correct":2,"explanation":"도쿄는 일본의 수도이자 중앙 정부가 있는 도시입니다."},
+    {"category":"생활 상식","prompt":"달력의 1년은 몇 개월일까요?","answers":["10개월","11개월","12개월","13개월"],"correct":2,"explanation":"그레고리력은 한 해를 12개월로 나눕니다."},
+    {"category":"지리","prompt":"해수면 기준으로 정상 높이가 가장 높은 산은 무엇일까요?","answers":["K2","에베레스트산","칸첸중가","데날리산"],"correct":1,"explanation":"에베레스트산은 평균 해수면을 기준으로 세계에서 정상 높이가 가장 높습니다."},
+    {"category":"과학","prompt":"지구 대기의 약 78%를 차지하는 기체는 무엇일까요?","answers":["산소","이산화탄소","질소","아르곤"],"correct":2,"explanation":"해수면 부근의 건조 공기는 부피 기준 약 78%가 질소, 약 21%가 산소입니다."},
+    {"category":"기술","prompt":"WWW는 무엇의 약자일까요?","answers":["World Wide Web","World Web Window","Wide World Wire","Web World Work"],"correct":0,"explanation":"WWW는 World Wide Web의 약자입니다."},
+    {"category":"기술","prompt":"1바이트는 몇 비트일까요?","answers":["4비트","8비트","16비트","32비트"],"correct":1,"explanation":"현대 컴퓨팅에서 1바이트는 일반적으로 8비트입니다."},
+    {"category":"예술","prompt":"〈별이 빛나는 밤〉을 그린 화가는 누구일까요?","answers":["클로드 모네","파블로 피카소","빈센트 반 고흐","살바도르 달리"],"correct":2,"explanation":"빈센트 반 고흐는 1889년에 〈별이 빛나는 밤〉을 그렸습니다."},
+    {"category":"스포츠","prompt":"다음 중 올림픽 오륜기의 다섯 색에 포함되지 않는 것은 무엇일까요?","answers":["파랑","노랑","초록","보라"],"correct":3,"explanation":"흰 바탕 위 오륜의 색은 파랑, 노랑, 검정, 초록, 빨강입니다."}
+  ]
 }
